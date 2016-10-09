@@ -468,11 +468,76 @@ var skillsHelpURL = {
   'summon familiar'  :        baseHelpURL + "classes/sorcererWizard.htm#wizardFamiliar",
   'scribe scroll'    :        baseHelpURL + "classes/sorcererWizard.htm#scribeScroll",
 
+  // ******************
+  // Sidequestors Links
+  // ******************
+
+  // Feats:
+  'expeditious dodge':        'http://sidequestors.org/wiki/Expeditious_Dodge',
+
+  // Dervish special abilities.
+  'dervish dance'    :        'http://sidequestors.org/wiki/Dervish#Dervish_Dance_.28Ex.29',
+  'movement mastery' :        'http://sidequestors.org/wiki/Dervish#Movement_Mastery_.28Ex.29',
+  'slashing blades'  :        'http://sidequestors.org/wiki/Dervish#Slashing_Blades',
+  'dance of death'   :        'http://sidequestors.org/wiki/Dervish#Dance_of_Death',
+  'improved reaction':        'http://sidequestors.org/wiki/Dervish#Improved_Reaction_.28Ex.29',
+  'elaborate parry'  :        'http://sidequestors.org/wiki/Dervish#Elaborate_Parry_.28Ex.29',
+  'tireless dance'   :        'http://sidequestors.org/wiki/Dervish#Tireless_Dance',
+  'a thousand cuts'  :        'http://sidequestors.org/wiki/Dervish#A_Thousand_Cuts_.28Ex.29',
+
+  // Radiant servant of Pelor special abilities.
+  'extra greater turning' :   'http://sidequestors.org/wiki/Radiant_servant_of_Pelor#Extra_Greater_Turning',
+  'radiance'         :        'http://sidequestors.org/wiki/Radiant_servant_of_Pelor#Radiance',
+  'empower healing'  :        'http://sidequestors.org/wiki/Radiant_servant_of_Pelor#Empower_Healing_.28Ex.29',
+  'aura of warding'  :        'http://sidequestors.org/wiki/Radiant_servant_of_Pelor#Aura_of_Warding_.28Su.29',
+  'maximize healing' :        'http://sidequestors.org/wiki/Radiant_servant_of_Pelor#Maximize_Healing_.28Ex.29',
+  'positive energy burst' :   'http://sidequestors.org/wiki/Radiant_servant_of_Pelor#Positive_Energy_Burst_.28Su.29',
+  'supreme healing'  :        'http://sidequestors.org/wiki/Radiant_servant_of_Pelor#Supreme_Healing_.28Ex.29',
+
+
   '###last one###'   :           ""
 };
 
 
 var spellsHelpURL = {
+  // ************************
+  // Begin Sidequestors Links
+  // ************************
+  "blessed aim":"http://sidequestors.org/wiki/Blessed_aim",
+  "guiding light":"http://sidequestors.org/wiki/Guiding_light",
+  "light of Lunia":"http://sidequestors.org/wiki/Light_of_Lunia",
+  "vigor, lesser":"http://sidequestors.org/wiki/Lesser_vigor",
+  "close wounds":"http://sidequestors.org/wiki/Close_wounds",
+  "divine protection":"http://sidequestors.org/wiki/Divine_protection",
+  "ghost touch armor":"http://sidequestors.org/wiki/Ghost_touch_armor",
+  "healing lorecall":"http://sidequestors.org/wiki/Healing_lorecall",
+  "light of Mercuria":"http://sidequestors.org/wiki/Light_of_Mercuria",
+  "protection from negative energy":"http://sidequestors.org/wiki/Protection_from_negative_energy",
+  "stabilize":"http://sidequestors.org/wiki/Stabilize",
+  "aid, mass":"http://sidequestors.org/wiki/Mass_aid",
+  "conviction, mass":"http://sidequestors.org/wiki/Mass_conviction",
+  "ghost touch weapon":"http://sidequestors.org/wiki/Ghost_touch_weapon",
+  "grace":"http://sidequestors.org/wiki/Grace",
+  "light of Venya":"http://sidequestors.org/wiki/Light_of_Venya",
+  "vigor, mass lesser":"http://sidequestors.org/wiki/Mass_lesser_vigor",
+  "vigor, greater":"http://sidequestors.org/wiki/Greater_vigor",
+  "vigor":"http://sidequestors.org/wiki/Vigor",
+  "glowing orb":"http://sidequestors.org/wiki/Glowing_orb",
+  "panacea":"http://sidequestors.org/wiki/Panacea",
+  "summon hound archon":"http://sidequestors.org/wiki/Summon_hound_archon",
+  "wall of good":"http://sidequestors.org/wiki/Wall_of_good",
+  "recitation":"http://sidequestors.org/wiki/Recitation",
+  "sheltered vitality":"http://sidequestors.org/wiki/Sheltered_vitality",
+  "divine agility":"http://sidequestors.org/wiki/Divine_agility",
+  "stone shape, greater":"http://sidequestors.org/wiki/Greater_stone_shape",
+  "life’s grace":"http://sidequestors.org/wiki/Life’s_grace",
+  "sanctuary, mass":"http://sidequestors.org/wiki/Mass_sanctuary",
+  "revivify":"http://sidequestors.org/wiki/Revivify",
+  "righteous wrath of the faithful":"http://sidequestors.org/wiki/Righteous_wrath_of_the_faithful",
+  // **********************
+  // End Sidequestors Links
+  // **********************
+
   // Spells
   "acid arrow":                              baseHelpURL + "spells/acidArrow.htm",
   "acid fog":                                baseHelpURL + "spells/acidFog.htm",
@@ -1084,7 +1149,6 @@ var spellsHelpURL = {
   "word of recall":                          baseHelpURL + "spells/wordofRecall.htm",
   "zone of silence":                     baseHelpURL + "spells/zoneofSilence.htm",
   "zone of truth":                       baseHelpURL + "spells/zoneofTruth.htm",
-
 
   '###last one###'   :           ""
 };
