@@ -18,9 +18,8 @@ function CalcWeight()
   for (var i = 1; i <= slots; i++)
   {
     var num = parseFloat(sheet()["Gear" + FormatNumber(i) + "W"].value);
-    if (isNaN(num))
-      num = 0.0;
-    total += num;
+    if (!isNaN(num))
+    	total += num;
   }
 
   document.getElementById("bagWeight").innerHTML = total.toFixed(1);
