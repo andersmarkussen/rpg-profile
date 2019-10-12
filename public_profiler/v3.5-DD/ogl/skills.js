@@ -1057,7 +1057,7 @@ var spellsHelpURL = {
   "suggestion, mass":                    baseHelpURL + "spells/suggestionMass.htm",
   "suggestion":                              baseHelpURL + "spells/suggestion.htm",
   "summon instrument":                   baseHelpURL + "spells/summonInstrument.htm",
-  // The next 18 spells are in reverse order; if they weren't all versions would match either I or V
+  // The next 18 spells are in reverse order; if they weren't, all versions would match either I or V
   // See the _RetrieveMatchingURL in ../skills.js
   "summon monster ix":                   baseHelpURL + "spells/summonMonsterIX.htm",
   "summon monster viii":                 baseHelpURL + "spells/summonMonsterVIII.htm",
