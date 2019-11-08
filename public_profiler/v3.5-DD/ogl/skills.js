@@ -153,8 +153,8 @@ for (var skill in classSkills)
   classSkills[skill] = cc_code;
 }
 
-var baseHelpURL = "http://www.d20srd.org/srd/"
-var baseWikiURL = "https://sidequestors.skydragoness.com/mediawiki/view/"
+var baseHelpURL = "http://www.d20srd.org/srd/";
+var baseWikiURL = "https://sidequestors.skydragoness.com/mediawiki/view/";
 
 // Defines the URL that points to help for each skill, feat, ability, etc.
 // NOTE: in cases where there is some overlap in names--like "armor proficiency"
@@ -521,7 +521,7 @@ var spellsHelpURL = {
   "align weapon, mass":                   baseWikiURL + "Mass_align_weapon",
   "aligned aura":                         baseWikiURL + "Aligned_aura",
   "allegro":                              baseWikiURL + "Allegro",
-  "alter fortune":                        baseWikiURL + "Alter_fortune"
+  "alter fortune":                        baseWikiURL + "Alter_fortune",
   "amanuensis":                           baseWikiURL + "Amanuensis",
   "amorphous form":                       baseWikiURL + "Amorphous_form",
   "amplify":                              baseWikiURL + "Amplify",
@@ -530,7 +530,7 @@ var spellsHelpURL = {
   "anarchic water":                       baseWikiURL + "Anarchic_water",
   "angelskin":                            baseWikiURL + "Angelskin",
   "anger of the noonday sun":             baseWikiURL + "Anger_of_the_noonday_sun",
-  "animalistic power, mass":              baseWikiURL + "Mass_animalistic_power"
+  "animalistic power, mass":              baseWikiURL + "Mass_animalistic_power",
   "animalistic power":                    baseWikiURL + "Animalistic_power",
   "animate breath":                       baseWikiURL + "Animate_breath",
   "animate fire":                         baseWikiURL + "Animate_fire",
@@ -550,7 +550,7 @@ var spellsHelpURL = {
   "arrow mind":                           baseWikiURL + "Arrow_mind",
   "arrow of bone":                        baseWikiURL + "Arrow_of_bone",
   "arrow storm":                          baseWikiURL + "Arrow_storm",
-  "as the frost":                         baseWikiURL + "As_the_frost"
+  "as the frost":                         baseWikiURL + "As_the_frost",
   "aspect of the earth hunter":           baseWikiURL + "Aspect_of_the_earth_hunter",
   "aspect of the wolf":                   baseWikiURL + "Aspect_of_the_wolf",
   "assay spell resistance":               baseWikiURL + "Assay_spell_resistance",
@@ -575,7 +575,7 @@ var spellsHelpURL = {
   "backbiter":                            baseWikiURL + "Backbiter",
   "backlash":                             baseWikiURL + "Backlash",
   "balancing lorecall":                   baseWikiURL + "Balancing_lorecall",
-  "baleful blink":                        baseWikiURL + "Baleful_blink"
+  "baleful blink":                        baseWikiURL + "Baleful_blink",
   "baleful transposition":                baseWikiURL + "Baleful_transposition",
   "ball lightning":                       baseWikiURL + "Ball_lightning",
   "balor nimbus":                         baseWikiURL + "Balor_nimbus",
@@ -594,11 +594,11 @@ var spellsHelpURL = {
   "bewildering mischance":                baseWikiURL + "Bewildering_mischance",
   "bewildering substitution":             baseWikiURL + "Bewildering_substitution",
   "bewildering visions":                  baseWikiURL + "Bewildering_visions",
-  "bigby's disrupting hand":              baseWikiURL + "Bigby’s_disrupting_hand"
-  "bigby's helpful hand":                 baseWikiURL + "Bigby’s_helpful_hand"
+  "bigby's disrupting hand":              baseWikiURL + "Bigby’s_disrupting_hand",
+  "bigby's helpful hand":                 baseWikiURL + "Bigby’s_helpful_hand",
   "bigby's striking fist":                baseWikiURL + "Bigby’s_striking_fist",
   "bigby's tripping hand":                baseWikiURL + "Bigby’s_tripping_hand",
-  "bigby's warding hand":                 baseWikiURL + "Bigby’s_warding_hand"
+  "bigby's warding hand":                 baseWikiURL + "Bigby’s_warding_hand",
   "binding winds":                        baseWikiURL + "Binding_winds",
   "bite of the king":                     baseWikiURL + "Bite_of_the_king",
   "bite of the werebear":                 baseWikiURL + "Bite_of_the_werebear",
@@ -607,10 +607,10 @@ var spellsHelpURL = {
   "bite of the weretiger":                baseWikiURL + "Bite_of_the_weretiger",
   "bite of the werewolf":                 baseWikiURL + "Bite_of_the_werewolf",
   "black blade of disaster":              baseWikiURL + "Black_blade_of_disaster",
-  "black karma curse":                    baseWikiURL + "Black_karma_curse"
+  "black karma curse":                    baseWikiURL + "Black_karma_curse",
   "blackfire":                            baseWikiURL + "Blackfire",
   "blacklight":                           baseWikiURL + "Blacklight",
-  "blade brothers":                       baseWikiURL + "Blade_brothers"
+  "blade brothers":                       baseWikiURL + "Blade_brothers",
   "blade of blood":                       baseWikiURL + "Blade_of_blood",
   "blade of pain and fear":               baseWikiURL + "Blade_of_pain_and_fear",
   "blade storm":                          baseWikiURL + "Blade_storm",
@@ -619,11 +619,11 @@ var spellsHelpURL = {
   "bladeweave":                           baseWikiURL + "Bladeweave",
   "blast of flame":                       baseWikiURL + "Blast_of_flame",
   "blast of force":                       baseWikiURL + "Blast_of_force",
-  "bleakness":                            baseWikiURL + "Bleakness"
+  "bleakness":                            baseWikiURL + "Bleakness",
   "bleed":                                baseWikiURL + "Bleed",
   "blessed aim":                          baseWikiURL + "Blessed_aim",
   "blessing of bahamut":                  baseWikiURL + "Blessing_of_bahamut",
-  "blessing of the righteous":            baseWikiURL + "Blessing_of_the_righteous"
+  "blessing of the righteous":            baseWikiURL + "Blessing_of_the_righteous",
   "blinding breath":                      baseWikiURL + "Blinding_breath",
   "blinding color surge":                 baseWikiURL + "Blinding_color_surge",
   "blinding spittle":                     baseWikiURL + "Blinding_spittle",
@@ -631,7 +631,7 @@ var spellsHelpURL = {
   "blindsight":                           baseWikiURL + "Blindsight",
   "blink, greater":                       baseWikiURL + "Greater_blink",
   "blistering radiance":                  baseWikiURL + "Blistering_radiance",
-  "blood creepers":                       baseWikiURL + "Blood_creepers"
+  "blood creepers":                       baseWikiURL + "Blood_creepers",
   "blood frenzy":                         baseWikiURL + "Blood_frenzy",
   "blood sirocco":                        baseWikiURL + "Blood_sirocco",
   "blood to water":                       baseWikiURL + "Blood_to_water",
@@ -649,7 +649,7 @@ var spellsHelpURL = {
   "bolts of bedevilment":                 baseWikiURL + "Bolts_of_bedevilment",
   "bombardment":                          baseWikiURL + "Bombardment",
   "bonefiddle":                           baseWikiURL + "Bonefiddle",
-  "bones of the earth":                   baseWikiURL + "Bones_of_the_earth"
+  "bones of the earth":                   baseWikiURL + "Bones_of_the_earth",
   "bottle of smoke":                      baseWikiURL + "Bottle_of_smoke",
   "brain spider":                         baseWikiURL + "Brain_spider",
   "brambles":                             baseWikiURL + "Brambles",
@@ -659,13 +659,13 @@ var spellsHelpURL = {
   "breath weapon admixture":              baseWikiURL + "Breath_weapon_admixture",
   "breath weapon substitution":           baseWikiURL + "Breath_weapon_substitution",
   "briar web":                            baseWikiURL + "Briar_web",
-  "bright worms":                         baseWikiURL + "Bright_worms"
+  "bright worms":                         baseWikiURL + "Bright_worms",
   "brilliant aura":                       baseWikiURL + "Brilliant_aura",
   "brilliant blade":                      baseWikiURL + "Brilliant_blade",
   "bristle":                              baseWikiURL + "Bristle",
   "buoyant lifting":                      baseWikiURL + "Buoyant_lifting",
   "burning blood":                        baseWikiURL + "Burning_blood",
-  "burning rage":                         baseWikiURL + "Burning_rage"
+  "burning rage":                         baseWikiURL + "Burning_rage",
   "burning sword":                        baseWikiURL + "Burning_sword",
   "burrow, mass":                         baseWikiURL + "Mass_burrow",
   "burrow":                               baseWikiURL + "Burrow",
@@ -675,7 +675,7 @@ var spellsHelpURL = {
   "call forth the beast":                 baseWikiURL + "Call_forth_the_beast",
   "call kolyarut":                        baseWikiURL + "Call_kolyarut",
   "call marut":                           baseWikiURL + "Call_marut",
-  "call of stone":                        baseWikiURL + "Call_of_stone"
+  "call of stone":                        baseWikiURL + "Call_of_stone",
   "call zelekhut":                        baseWikiURL + "Call_zelekhut",
   "caltrops":                             baseWikiURL + "Caltrops",
   "camouflage, mass":                     baseWikiURL + "Mass_camouflage",
@@ -684,18 +684,18 @@ var spellsHelpURL = {
   "cast in stone":                        baseWikiURL + "Cast_in_stone",
   "castigate":                            baseWikiURL + "Castigate",
   "celebration":                          baseWikiURL + "Celebration",
-  "celerity, greater":                    baseWikiURL + "Greater_celerity"
-  "celerity, lesser":                     baseWikiURL + "Lesser_celerity"
-  "celerity":                             baseWikiURL + "Celerity"
-  "chain dispel":                         baseWikiURL + "Chain_dispel"
+  "celerity, greater":                    baseWikiURL + "Greater_celerity",
+  "celerity, lesser":                     baseWikiURL + "Lesser_celerity",
+  "celerity":                             baseWikiURL + "Celerity",
+  "chain dispel":                         baseWikiURL + "Chain_dispel",
   "chain missile":                        baseWikiURL + "Chain_missile",
   "chain of eyes":                        baseWikiURL + "Chain_of_eyes",
   "chain of sorrow":                      baseWikiURL + "Chain_of_sorrow",
-  "channeled divine health":              baseWikiURL + "Channeled_divine_health"
-  "channeled divine shield":              baseWikiURL + "Channeled_divine_shield"
+  "channeled divine health":              baseWikiURL + "Channeled_divine_health",
+  "channeled divine shield":              baseWikiURL + "Channeled_divine_shield",
   "channeled pyroburst":                  baseWikiURL + "Channeled_pyroburst",
   "charge of the triceratops":            baseWikiURL + "Charge_of_the_triceratops",
-  "chasing perfection":                   baseWikiURL + "Chasing_perfection"
+  "chasing perfection":                   baseWikiURL + "Chasing_perfection",
   "cheat":                                baseWikiURL + "Cheat",
   "checkmate's light":                    baseWikiURL + "Checkmate’s_light",
   "chill of the grave":                   baseWikiURL + "Chill_of_the_grave",
@@ -713,7 +713,7 @@ var spellsHelpURL = {
   "cloak pool":                           baseWikiURL + "Cloak_pool",
   "close wounds":                         baseWikiURL + "Close_wounds",
   "cloud of bewilderment":                baseWikiURL + "Cloud_of_bewilderment",
-  "cloud of knives":                      baseWikiURL + "Cloud_of_knives"
+  "cloud of knives":                      baseWikiURL + "Cloud_of_knives",
   "cloud wings":                          baseWikiURL + "Cloud_wings",
   "cloudburst":                           baseWikiURL + "Cloudburst",
   "cloudwalkers":                         baseWikiURL + "Cloudwalkers",
@@ -723,7 +723,7 @@ var spellsHelpURL = {
   "cold snap":                            baseWikiURL + "Cold_snap",
   "combust":                              baseWikiURL + "Combust",
   "cometfall":                            baseWikiURL + "Cometfall",
-  "condemnation":                         baseWikiURL + "Condemnation"
+  "condemnation":                         baseWikiURL + "Condemnation",
   "conduit of life":                      baseWikiURL + "Conduit_of_life",
   "cone of dimness":                      baseWikiURL + "Cone_of_dimness",
   "confound":                             baseWikiURL + "Confound",
@@ -747,16 +747,16 @@ var spellsHelpURL = {
   "creeping cold, greater":               baseWikiURL + "Greater_creeping_cold",
   "creeping cold":                        baseWikiURL + "Creeping_cold",
   "critical strike":                      baseWikiURL + "Critical_strike",
-  "crown of clarity":                     baseWikiURL + "Crown_of_clarity"
+  "crown of clarity":                     baseWikiURL + "Crown_of_clarity",
   "crown of glory":                       baseWikiURL + "Crown_of_glory",
   "crown of might":                       baseWikiURL + "Crown_of_might",
   "crown of protection":                  baseWikiURL + "Crown_of_protection",
-  "crown of smiting":                     baseWikiURL + "Crown_of_smiting"
-  "crown of the grave":                   baseWikiURL + "Crown_of_the_grave"
+  "crown of smiting":                     baseWikiURL + "Crown_of_smiting",
+  "crown of the grave":                   baseWikiURL + "Crown_of_the_grave",
   "crown of veils":                       baseWikiURL + "Crown_of_veils",
   "crumble":                              baseWikiURL + "Crumble",
-  "crushing grip":                        baseWikiURL + "Crushing_grip"
-  "curse of arrow attraction":            baseWikiURL + "Curse_of_arrow_attraction"
+  "crushing grip":                        baseWikiURL + "Crushing_grip",
+  "curse of arrow attraction":            baseWikiURL + "Curse_of_arrow_attraction",
   "curse of ill fortune, mass":           baseWikiURL + "Mass_curse_of_ill_fortune",
   "curse of ill fortune":                 baseWikiURL + "Curse_of_ill_fortune",
   "curse of impending blades, mass":      baseWikiURL + "Mass_curse_of_impending_blades",
@@ -767,9 +767,9 @@ var spellsHelpURL = {
   "cyclonic blast":                       baseWikiURL + "Cyclonic_blast",
   "daggerspell stance":                   baseWikiURL + "Daggerspell_stance",
   "dampen magic":                         baseWikiURL + "Dampen_magic",
-  "dance of blades":                      baseWikiURL + "Dancing_blade"
+  "dance of blades":                      baseWikiURL + "Dancing_blade",
   "dance of the unicorn":                 baseWikiURL + "Dance_of_the_unicorn",
-  "dancing blade":                        baseWikiURL + "Dancing_blade"
+  "dancing blade":                        baseWikiURL + "Dancing_blade",
   "dark way":                             baseWikiURL + "Dark_way",
   "darkbolt":                             baseWikiURL + "Darkbolt",
   "darkfire":                             baseWikiURL + "Darkfire",
@@ -802,13 +802,13 @@ var spellsHelpURL = {
   "desiccating bubble":                   baseWikiURL + "Desiccating_bubble",
   "detect favored enemy":                 baseWikiURL + "Detect_favored_enemy",
   "detect taint":                         baseWikiURL + "Detect_taint",
-  "detonate":                             baseWikiURL + "Detonate"
+  "detonate":                             baseWikiURL + "Detonate",
   "devil blight":                         baseWikiURL + "Devil_blight",
   "diamondsteel":                         baseWikiURL + "Diamondsteel",
   "dimension door, greater":              baseWikiURL + "Greater_dimension_door",
   "dimension hop":                        baseWikiURL + "Dimension_hop",
-  "dimension shuffle":                    baseWikiURL + "Dimension_shuffle"
-  "dimension step":                       baseWikiURL + "Dimension_step"
+  "dimension shuffle":                    baseWikiURL + "Dimension_shuffle",
+  "dimension step":                       baseWikiURL + "Dimension_step",
   "dinosaur stampede":                    baseWikiURL + "Dinosaur_stampede",
   "dire hunger":                          baseWikiURL + "Dire_hunger",
   "dirge of discord":                     baseWikiURL + "Dirge_of_discord",
@@ -835,7 +835,7 @@ var spellsHelpURL = {
   "divine interdiction":                  baseWikiURL + "Divine_interdiction",
   "divine presence":                      baseWikiURL + "Divine_presence",
   "divine protection":                    baseWikiURL + "Divine_protection",
-  "divine retaliation":                   baseWikiURL + "Divine_retaliation"
+  "divine retaliation":                   baseWikiURL + "Divine_retaliation",
   "divine retribution":                   baseWikiURL + "Divine_retribution",
   "divine sacrifice":                     baseWikiURL + "Divine_sacrifice",
   "dolorous blow":                        baseWikiURL + "Dolorous_blow",
@@ -848,14 +848,14 @@ var spellsHelpURL = {
   "dragon ally, lesser":                  baseWikiURL + "Lesser_dragon_ally",
   "dragon ally":                          baseWikiURL + "Dragon_ally",
   "dragon breath":                        baseWikiURL + "Dragon_breath",
-  "dragonshape":                          baseWikiURL + "Dragonshape"
+  "dragonshape":                          baseWikiURL + "Dragonshape",
   "dragonsight":                          baseWikiURL + "Dragonsight",
   "dragonskin":                           baseWikiURL + "Dragonskin",
   "dream casting":                        baseWikiURL + "Dream_casting",
   "dream sight":                          baseWikiURL + "Dream_sight",
   "dream walk":                           baseWikiURL + "Dream_walk",
   "dreaming puppet":                      baseWikiURL + "Dreaming_puppet",
-  "drifts of the shalm":                  baseWikiURL + "Drifts_of_the_shalm"
+  "drifts of the shalm":                  baseWikiURL + "Drifts_of_the_shalm",
   "drown, mass":                          baseWikiURL + "Mass_drown",
   "drown":                                baseWikiURL + "Drown",
   "duelward":                             baseWikiURL + "Duelward",
@@ -874,8 +874,8 @@ var spellsHelpURL = {
   "effulgent epuration":                  baseWikiURL + "Effulgent_epuration",
   "electric jolt":                        baseWikiURL + "Electric_jolt",
   "electric loop":                        baseWikiURL + "Electric_loop",
-  "electric vengeance, greater":          baseWikiURL + "Greater_electric_vengeance"
-  "electric vengeance":                   baseWikiURL + "Electric_vengeance"
+  "electric vengeance, greater":          baseWikiURL + "Greater_electric_vengeance",
+  "electric vengeance":                   baseWikiURL + "Electric_vengeance",
   "elemental body":                       baseWikiURL + "Elemental_body",
   "embrace the wild":                     baseWikiURL + "Embrace_the_wild",
   "emerald flame fist":                   baseWikiURL + "Emerald_flame_fist",
@@ -886,12 +886,12 @@ var spellsHelpURL = {
   "energy ebb":                           baseWikiURL + "Energy_ebb",
   "energy immunity":                      baseWikiURL + "Energy_immunity",
   "energy spheres":                       baseWikiURL + "Energy_spheres",
-  "energy surge, greater":                baseWikiURL + "Greater_energy_surge"
+  "energy surge, greater":                baseWikiURL + "Greater_energy_surge",
   "energy surge, lesser":                 baseWikiURL + "Lesser_energy_surge",
   "energy surge":                         baseWikiURL + "Energy_surge",
   "energy transformation field":          baseWikiURL + "Energy_transformation_field",
   "energy vortex":                        baseWikiURL + "Energy_vortex",
-  "energy vulnerability":                 baseWikiURL + "Energy_vulnerability"
+  "energy vulnerability":                 baseWikiURL + "Energy_vulnerability",
   "enervating breath":                    baseWikiURL + "Enervating_breath",
   "enhance familiar":                     baseWikiURL + "Enhance_familiar",
   "enhance wild shape":                   baseWikiURL + "Enhance_wild_shape",
@@ -905,13 +905,13 @@ var spellsHelpURL = {
   "ethereal breath":                      baseWikiURL + "Ethereal_breath",
   "ethereal chamber":                     baseWikiURL + "Ethereal_chamber",
   "ethereal mount":                       baseWikiURL + "Ethereal_mount",
-  "evard's menacing tentacles":           baseWikiURL + "Evard’s_menacing_tentacles"
+  "evard's menacing tentacles":           baseWikiURL + "Evard’s_menacing_tentacles",
   "evil glare":                           baseWikiURL + "Evil_glare",
   "exacting shot":                        baseWikiURL + "Exacting_shot",
   "excavate":                             baseWikiURL + "Excavate",
   "execration":                           baseWikiURL + "Execration",
   "explosive cascade":                    baseWikiURL + "Explosive_cascade",
-  "explosive rune field":                 baseWikiURL + "Explosive_rune_field"
+  "explosive rune field":                 baseWikiURL + "Explosive_rune_field",
   "extend tentacles":                     baseWikiURL + "Extend_tentacles",
   "extract water elemental":              baseWikiURL + "Extract_water_elemental",
   "eye of power":                         baseWikiURL + "Eye_of_power",
@@ -930,7 +930,7 @@ var spellsHelpURL = {
   "fell the greatest foe":                baseWikiURL + "Fell_the_greatest_foe",
   "field of ghouls":                      baseWikiURL + "Field_of_ghouls",
   "field of icy razors":                  baseWikiURL + "Field_of_icy_razors",
-  "field of resistance":                  baseWikiURL + "Field_of_resistance"
+  "field of resistance":                  baseWikiURL + "Field_of_resistance",
   "fiendform":                            baseWikiURL + "Fiendform",
   "fierce pride of the beastlands":       baseWikiURL + "Fierce_pride_of_the_beastlands",
   "final rebuke":                         baseWikiURL + "Final_rebuke",
@@ -1020,7 +1020,7 @@ var spellsHelpURL = {
   "heal animal companion":                baseWikiURL + "Heal_animal_companion",
   "healing circle":                       baseWikiURL + "Healing_circle",
   "healing lorecall":                     baseWikiURL + "Healing_lorecall",
-  "healing spirit":                       baseWikiURL + "Healing_spirit"
+  "healing spirit":                       baseWikiURL + "Healing_spirit",
   "healing sting":                        baseWikiURL + "Healing_sting",
   "healing touch":                        baseWikiURL + "Healing_touch",
   "healthful rest":                       baseWikiURL + "Healthful_rest",
@@ -1049,7 +1049,7 @@ var spellsHelpURL = {
   "hound of doom":                        baseWikiURL + "Hound_of_doom",
   "howling chain":                        baseWikiURL + "Howling_chain",
   "hungry gizzard":                       baseWikiURL + "Hungry_gizzard",
-  "hunter's eye":                         baseWikiURL + "Hunter’s_eye"
+  "hunter's eye":                         baseWikiURL + "Hunter’s_eye",
   "hunter's mercy":                       baseWikiURL + "Hunter’s_mercy",
   "hunters of hades":                     baseWikiURL + "Hunters_of_Hades",
   "hurl":                                 baseWikiURL + "Hurl",
@@ -1076,7 +1076,7 @@ var spellsHelpURL = {
   "incite":                               baseWikiURL + "Incite",
   "incorporeal enhancement":              baseWikiURL + "Incorporeal_enhancement",
   "incorporeal nova":                     baseWikiURL + "Incorporeal_nova",
-  "increase virulence":                   baseWikiURL + "Increase_virulence"
+  "increase virulence":                   baseWikiURL + "Increase_virulence",
   "indomitability":                       baseWikiURL + "Indomitability",
   "inevitable defeat":                    baseWikiURL + "Inevitable_defeat",
   "infernal threnody":                    baseWikiURL + "Infernal_threnody",
@@ -1088,7 +1088,7 @@ var spellsHelpURL = {
   "inhibit":                              baseWikiURL + "Inhibit",
   "inky cloud":                           baseWikiURL + "Inky_cloud",
   "insidious rhythm":                     baseWikiURL + "Insidious_rhythm",
-  "insight of good fortune":              baseWikiURL + "Insight_of_good_fortune"
+  "insight of good fortune":              baseWikiURL + "Insight_of_good_fortune",
   "insightful feint":                     baseWikiURL + "Insightful_feint",
   "inspirational boost":                  baseWikiURL + "Inspirational_boost",
   "instant locksmith":                    baseWikiURL + "Instant_locksmith",
@@ -1098,9 +1098,9 @@ var spellsHelpURL = {
   "interferometry":                       baseWikiURL + "Interferometry",
   "interplanar message":                  baseWikiURL + "Interplanar_message",
   "interplanar telepathic bond":          baseWikiURL + "Interplanar_telepathic_bond",
-  "invest heavy protection":              baseWikiURL + "Invest_heavy_protection"
-  "invest light protection":              baseWikiURL + "Invest_light_protection"
-  "invest moderate protection":           baseWikiURL + "Invest_moderate_protection"
+  "invest heavy protection":              baseWikiURL + "Invest_heavy_protection",
+  "invest light protection":              baseWikiURL + "Invest_light_protection",
+  "invest moderate protection":           baseWikiURL + "Invest_moderate_protection",
   "iron bones":                           baseWikiURL + "Iron_bones",
   "iron silence":                         baseWikiURL + "Iron_silence",
   "ironguard, lesser":                    baseWikiURL + "Lesser_ironguard",
@@ -1113,7 +1113,7 @@ var spellsHelpURL = {
   "jungle's rapture":                     baseWikiURL + "Jungle’s_rapture",
   "junglerazer":                          baseWikiURL + "Junglerazer",
   "kelgore's fire bolt":                  baseWikiURL + "Kelgore’s_fire_bolt",
-  "kelgore's grave mist":                 baseWikiURL + "Kelgore’s_grave_mist"
+  "kelgore's grave mist":                 baseWikiURL + "Kelgore’s_grave_mist",
   "kelpstrand":                           baseWikiURL + "Kelpstrand",
   "kiss of the vampire":                  baseWikiURL + "Kiss_of_the_vampire",
   "knight's move":                        baseWikiURL + "Knight’s_move",
@@ -1140,7 +1140,7 @@ var spellsHelpURL = {
   "light of wisdom":                      baseWikiURL + "Light_of_wisdom",
   "lightfoot":                            baseWikiURL + "Lightfoot",
   "lightning ring":                       baseWikiURL + "Lightning_ring",
-  "linked perception":                    baseWikiURL + "Linked_perception"
+  "linked perception":                    baseWikiURL + "Linked_perception",
   "lion's charge":                        baseWikiURL + "Lion’s_charge",
   "lion's roar":                          baseWikiURL + "Lion’s_roar",
   "lionheart":                            baseWikiURL + "Lionheart",
@@ -1149,15 +1149,15 @@ var spellsHelpURL = {
   "lively step":                          baseWikiURL + "Lively_step",
   "living prints":                        baseWikiURL + "Living_prints",
   "living undeath":                       baseWikiURL + "Living_undeath",
-  "longstrider, mass":                    baseWikiURL + "Mass_longstrider"
+  "longstrider, mass":                    baseWikiURL + "Mass_longstrider",
   "lore of the gods":                     baseWikiURL + "Lore_of_the_gods",
   "love's lament":                        baseWikiURL + "Love’s_lament",
   "low-light vision":                     baseWikiURL + "Low-light_vision",
   "loyal vassal":                         baseWikiURL + "Loyal_vassal",
   "lucent lance":                         baseWikiURL + "Lucent_lance",
-  "luminous assassin, greater":           baseWikiURL + "Greater_luminous_assassin"
-  "luminous assassin, lesser":            baseWikiURL + "Lesser_luminous_assassin"
-  "luminous assassin":                    baseWikiURL + "Luminous_assassin"
+  "luminous assassin, greater":           baseWikiURL + "Greater_luminous_assassin",
+  "luminous assassin, lesser":            baseWikiURL + "Lesser_luminous_assassin",
+  "luminous assassin":                    baseWikiURL + "Luminous_assassin",
   "luminous gaze":                        baseWikiURL + "Luminous_gaze",
   "maddening scream":                     baseWikiURL + "Maddening_scream",
   "maddening whispers":                   baseWikiURL + "Maddening_whispers",
@@ -1165,13 +1165,13 @@ var spellsHelpURL = {
   "mage armor, greater":                  baseWikiURL + "Greater_mage_armor",
   "mage armor, mass":                     baseWikiURL + "Mass_mage_armor",
   "mage hand, greater":                   baseWikiURL + "Greater_mage_hand",
-  "magic convalescence":                  baseWikiURL + "Magic_convalescence"
+  "magic convalescence":                  baseWikiURL + "Magic_convalescence",
   "magic miasma":                         baseWikiURL + "Magic_miasma",
   "magic shortcut":                       baseWikiURL + "Magic_shortcut",
   "make manifest, mass":                  baseWikiURL + "Mass_make_manifest",
   "make manifest":                        baseWikiURL + "Make_manifest",
   "malevolent miasma":                    baseWikiURL + "Malevolent_miasma",
-  "mana flux":                            baseWikiURL + "Mana_flux"
+  "mana flux":                            baseWikiURL + "Mana_flux",
   "manifest desire":                      baseWikiURL + "Manifest_desire",
   "manifest nightmare":                   baseWikiURL + "Manifest_nightmare",
   "mantle of chaos":                      baseWikiURL + "Mantle_of_chaos",
@@ -1181,8 +1181,8 @@ var spellsHelpURL = {
   "mantle of pure spite":                 baseWikiURL + "Mantle_of_pure_spite",
   "mantle of the icy soul":               baseWikiURL + "Mantle_of_the_icy_soul",
   "manyjaws":                             baseWikiURL + "Manyjaws",
-  "mark of doom":                         baseWikiURL + "Mark_of_doom"
-  "mark of judgment":                     baseWikiURL + "Mark_of_judgment"
+  "mark of doom":                         baseWikiURL + "Mark_of_doom",
+  "mark of judgment":                     baseWikiURL + "Mark_of_judgment",
   "mark of sin":                          baseWikiURL + "Mark_of_sin",
   "mark of the hunter":                   baseWikiURL + "Mark_of_the_hunter",
   "mark of the outcast":                  baseWikiURL + "Mark_of_the_outcast",
@@ -1195,12 +1195,12 @@ var spellsHelpURL = {
   "maw of chaos":                         baseWikiURL + "Maw_of_chaos",
   "maw of stone":                         baseWikiURL + "Maw_of_stone",
   "mechanus mind":                        baseWikiURL + "Mechanus_mind",
-  "melf's unicorn arrow":                 baseWikiURL + "Melf’s_unicorn_arrow"
+  "melf's unicorn arrow":                 baseWikiURL + "Melf’s_unicorn_arrow",
   "memory rot":                           baseWikiURL + "Memory_rot",
   "mesmerizing glare":                    baseWikiURL + "Mesmerizing_glare",
   "metal fang":                           baseWikiURL + "Metal_fang",
   "metal melt":                           baseWikiURL + "Metal_melt",
-  "meteoric strike":                      baseWikiURL + "Meteoric_strike"
+  "meteoric strike":                      baseWikiURL + "Meteoric_strike",
   "miasma of entropy":                    baseWikiURL + "Miasma_of_entropy",
   "miasma":                               baseWikiURL + "Miasma",
   "mind poison":                          baseWikiURL + "Mind_poison",
@@ -1220,8 +1220,8 @@ var spellsHelpURL = {
   "moral façade":                         baseWikiURL + "Moral_façade",
   "mountain stance":                      baseWikiURL + "Mountain_stance",
   "murderous mist":                       baseWikiURL + "Murderous_mist",
-  "mystic aegis":                         baseWikiURL + "Mystic_aegis"
-  "mystic surge":                         baseWikiURL + "Mystic_surge"
+  "mystic aegis":                         baseWikiURL + "Mystic_aegis",
+  "mystic surge":                         baseWikiURL + "Mystic_surge",
   "nature's avatar":                      baseWikiURL + "Nature’s_avatar",
   "nature's balance":                     baseWikiURL + "Nature’s_balance",
   "nature's favor":                       baseWikiURL + "Nature’s_favor",
@@ -1278,7 +1278,7 @@ var spellsHelpURL = {
   "phantom wolf":                         baseWikiURL + "Phantom_wolf",
   "plague of rats":                       baseWikiURL + "Plague_of_rats",
   "plague of undead":                     baseWikiURL + "Plague_of_undead",
-  "plague":                               baseWikiURL + "Plague"
+  "plague":                               baseWikiURL + "Plague",
   "planar bubble":                        baseWikiURL + "Planar_bubble",
   "planar exchange, greater":             baseWikiURL + "Greater_planar_exchange",
   "planar exchange, lesser":              baseWikiURL + "Lesser_planar_exchange",
@@ -1294,7 +1294,7 @@ var spellsHelpURL = {
   "positive energy aura":                 baseWikiURL + "Positive_energy_aura",
   "primal form":                          baseWikiURL + "Primal_form",
   "prismatic eye":                        baseWikiURL + "Prismatic_eye",
-  "prismatic mist":                       baseWikiURL + "Prismatic_mist"
+  "prismatic mist":                       baseWikiURL + "Prismatic_mist",
   "prismatic ray":                        baseWikiURL + "Prismatic_ray",
   "probe thoughts":                       baseWikiURL + "Probe_thoughts",
   "profane item":                         baseWikiURL + "Profane_item",
@@ -1303,13 +1303,13 @@ var spellsHelpURL = {
   "protection from negative energy":      baseWikiURL + "Protection_from_negative_energy",
   "protection from positive energy":      baseWikiURL + "Protection_from_positive_energy",
   "protégé":                              baseWikiURL + "Protégé",
-  "pulse of hate":                        baseWikiURL + "Pulse_of_hate"
+  "pulse of hate":                        baseWikiURL + "Pulse_of_hate",
   "puppeteer":                            baseWikiURL + "Puppeteer",
   "quick march":                          baseWikiURL + "Quick_march",
   "quick potion":                         baseWikiURL + "Quick_potion",
   "quill blast":                          baseWikiURL + "Quill_blast",
   "quillfire":                            baseWikiURL + "Quillfire",
-  "radiance":                             baseWikiURL + "Radiance"
+  "radiance":                             baseWikiURL + "Radiance",
   "radiant assault":                      baseWikiURL + "Radiant_assault",
   "raging flame":                         baseWikiURL + "Raging_flame",
   "rainbow beam":                         baseWikiURL + "Rainbow_beam",
@@ -1328,7 +1328,7 @@ var spellsHelpURL = {
   "ray of light":                         baseWikiURL + "Ray_of_light",
   "ray of sickness":                      baseWikiURL + "Ray_of_sickness",
   "ray of stupidity":                     baseWikiURL + "Ray_of_stupidity",
-  "ray of the python":                    baseWikiURL + "Ray_of_the_python"
+  "ray of the python":                    baseWikiURL + "Ray_of_the_python",
   "ray of weakness":                      baseWikiURL + "Ray_of_weakness",
   "razorfangs":                           baseWikiURL + "Razorfangs",
   "reality maelstrom":                    baseWikiURL + "Reality_maelstrom",
@@ -1351,7 +1351,7 @@ var spellsHelpURL = {
   "rejuvenative corpse":                  baseWikiURL + "Rejuvenative_corpse",
   "remove scent":                         baseWikiURL + "Remove_scent",
   "renewal pact":                         baseWikiURL + "Renewal_pact",
-  "renewed vigor":                        baseWikiURL + "Renewed_vigor"
+  "renewed vigor":                        baseWikiURL + "Renewed_vigor",
   "repair critical damage":               baseWikiURL + "Repair_critical_damage",
   "repair light damage":                  baseWikiURL + "Repair_light_damage",
   "repair minor damage":                  baseWikiURL + "Repair_minor_damage",
@@ -1377,7 +1377,7 @@ var spellsHelpURL = {
   "revivify":                             baseWikiURL + "Revivify",
   "rhino's rush":                         baseWikiURL + "Rhino’s_rush",
   "righteous aura":                       baseWikiURL + "Righteous_aura",
-  "righteous burst":                      baseWikiURL + "Righteous_burst"
+  "righteous burst":                      baseWikiURL + "Righteous_burst",
   "righteous fury":                       baseWikiURL + "Righteous_fury",
   "righteous wrath of the faithful":      baseWikiURL + "Righteous_wrath_of_the_faithful",
   "rigor mortis":                         baseWikiURL + "Rigor_mortis",
@@ -1396,7 +1396,7 @@ var spellsHelpURL = {
   "sandblast":                            baseWikiURL + "Sandblast",
   "sarcophagus of stone":                 baseWikiURL + "Sarcophagus_of_stone",
   "scale weakening":                      baseWikiURL + "Scale_weakening",
-  "scattering trap":                      baseWikiURL + "Scattering_trap"
+  "scattering trap":                      baseWikiURL + "Scattering_trap",
   "scatterspray":                         baseWikiURL + "Scatterspray",
   "scent":                                baseWikiURL + "Scent",
   "scintillating scales":                 baseWikiURL + "Scintillating_scales",
@@ -1427,7 +1427,7 @@ var spellsHelpURL = {
   "shadowy grappler":                     baseWikiURL + "Shadowy_grappler",
   "shard storm":                          baseWikiURL + "Shard_storm",
   "share husk":                           baseWikiURL + "Share_husk",
-  "share talents":                        baseWikiURL + "Share_talents"
+  "share talents":                        baseWikiURL + "Share_talents",
   "sharptooth":                           baseWikiURL + "Sharptooth",
   "shatterfloor":                         baseWikiURL + "Shatterfloor",
   "sheltered vitality":                   baseWikiURL + "Sheltered_vitality",
@@ -1516,7 +1516,7 @@ var spellsHelpURL = {
   "sticky fingers":                       baseWikiURL + "Sticky_fingers",
   "sticky saddle":                        baseWikiURL + "Sticky_saddle",
   "stick":                                baseWikiURL + "Stick",
-  "stifle spell":                         baseWikiURL + "Stifle_spell"
+  "stifle spell":                         baseWikiURL + "Stifle_spell",
   "sting ray":                            baseWikiURL + "Sting_ray",
   "stolen breath":                        baseWikiURL + "Stolen_breath",
   "stone body":                           baseWikiURL + "Stone_body",
@@ -1547,7 +1547,7 @@ var spellsHelpURL = {
   "summon elemental monolith":            baseWikiURL + "Summon_elemental_monolith",
   "summon elementite swarm":              baseWikiURL + "Summon_elementite_swarm",
   "summon elysian thrush":                baseWikiURL + "Summon_Elysian_thrush",
-  "summon golem":                         baseWikiURL + "Summon_golem"
+  "summon golem":                         baseWikiURL + "Summon_golem",
   "summon greater elemental":             baseWikiURL + "Summon_greater_elemental",
   "summon holy symbol":                   baseWikiURL + "Summon_holy_symbol",
   "summon hound archon":                  baseWikiURL + "Summon_hound_archon",
@@ -1587,7 +1587,7 @@ var spellsHelpURL = {
   "telepathic aura":                      baseWikiURL + "Telepathic_aura",
   "telepathic bond, lesser":              baseWikiURL + "Lesser_telepathic_bond",
   "thornskin":                            baseWikiURL + "Thornskin",
-  "thunder field":                        baseWikiURL + "Thunder_field"
+  "thunder field":                        baseWikiURL + "Thunder_field",
   "thunderhead":                          baseWikiURL + "Thunderhead",
   "thunderlance":                         baseWikiURL + "Thunderlance",
   "thunderous roar":                      baseWikiURL + "Thunderous_roar",
@@ -1608,7 +1608,7 @@ var spellsHelpURL = {
   "tremorsense":                          baseWikiURL + "Tremorsense",
   "tremor":                               baseWikiURL + "Tremor",
   "triadspell":                           baseWikiURL + "Triadspell",
-  "trollshape":                           baseWikiURL + "Trollshape"
+  "trollshape":                           baseWikiURL + "Trollshape",
   "true creation":                        baseWikiURL + "True_creation",
   "true domination":                      baseWikiURL + "True_domination",
   "tsunami":                              baseWikiURL + "Tsunami",
@@ -1644,7 +1644,7 @@ var spellsHelpURL = {
   "visage of the deity":                  baseWikiURL + "Visage_of_the_deity",
   "viscid glob":                          baseWikiURL + "Viscid_glob",
   "vision of glory":                      baseWikiURL + "Vision_of_glory",
-  "visions of the future":                baseWikiURL + "Visions_of_the_future"
+  "visions of the future":                baseWikiURL + "Visions_of_the_future",
   "vitriolic sphere":                     baseWikiURL + "Vitriolic_sphere",
   "voice of the dragon":                  baseWikiURL + "Voice_of_the_dragon",
   "vortex of teeth":                      baseWikiURL + "Vortex_of_teeth",
@@ -1698,7 +1698,7 @@ var spellsHelpURL = {
   "word of balance":                      baseWikiURL + "Word_of_balance",
   "word of binding":                      baseWikiURL + "Word_of_binding",
   "wounding whispers":                    baseWikiURL + "Wounding_whispers",
-  "wrack earth":                          baseWikiURL + "Wrack_earth"
+  "wrack earth":                          baseWikiURL + "Wrack_earth",
   "wracking touch":                       baseWikiURL + "Wracking_touch",
   "wrack":                                baseWikiURL + "Wrack",
   "wraithstrike":                         baseWikiURL + "Wraithstrike",
